@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Movie Project</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="/Marvel/resources/js/movies.js"></script>
+    <script type="text/javascript" src="/Marvel/resources/js/bootstrap.min.js"></script>
+    <!--<link rel="stylesheet" href="/Marvel/resources/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="/Marvel/resources/css/bootstrap-theme.min.css">
+
+
+
+</head>
+<body>
+<h1><strong>My Movie Project!</strong></h1>
+<img src="/marvel/resources/images/generalmovies.jpg" id="movieBanner" style=" height: 50%;width: 50%;">
+<form>
+    <input type="text" id="searchBox">
+    <div style="padding:5px">
+    <button onclick="getMovie()">Search Movies</button>
+</div>
+    <p></p>
+
+    Results:
+    <div id="results">
+      <strong>Movie Title:</strong>   <label id="title"></label><br>
+      <strong>Director:</strong>   <label id="director"></label><br>
+        <strong>Year: </strong><label id="year"></label><br>
+      <strong>Plot Summary: </strong><label id="plot"></label><br>
+     <img src="fakepic.jpg" id="poster" style="display: none">
+<!--
+        <table id="movieData">
+            <tr>
+                <th>Title</th>
+                <th>Director</th>
+                <th>Plot Summary</th>
+            </tr>
+        </table>-->
+    </div>
+    <p></p>
+    <a href="../index.html">Back to main menu</a>
+</form>
+</body>
+</html>
